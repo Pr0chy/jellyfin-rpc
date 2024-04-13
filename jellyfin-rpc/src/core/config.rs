@@ -41,6 +41,8 @@ pub struct Jellyfin {
     pub show_simple: Option<bool>,
     /// Add "0" before season/episode number if lower than 10.
     pub append_prefix: Option<bool>,
+    /// Add a divider between numbers
+    pub add_divider: Option<bool>
 }
 
 /// Username of the person that info should be gathered from.
